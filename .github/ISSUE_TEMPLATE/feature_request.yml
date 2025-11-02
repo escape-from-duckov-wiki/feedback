@@ -1,7 +1,7 @@
 name: ✨ Feature Request
 description: Suggest a new feature or enhancement
 title: "[FEATURE] "
-labels: ["feature"]
+labels: ["enhancement"]
 body:
   - type: markdown
     attributes:
@@ -78,4 +78,3 @@ body:
       label: Additional Context
       description: Add any other context or information about the feature request
       placeholder: Any additional information that might help
-
