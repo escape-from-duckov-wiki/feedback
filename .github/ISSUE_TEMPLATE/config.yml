@@ -1,0 +1,15 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🌐 Visit Website
+    url: https://escapefromduckov.net
+    about: Visit the Escape From Duckov website
+  - name: 📖 Game Guides
+    url: https://escapefromduckov.net/guide
+    about: Browse our comprehensive game guides
+  - name: 🗺️ Maps
+    url: https://escapefromduckov.net/maps
+    about: Explore interactive game maps
+  - name: 🎒 Items Database
+    url: https://escapefromduckov.net/items
+    about: Search through our items database
+

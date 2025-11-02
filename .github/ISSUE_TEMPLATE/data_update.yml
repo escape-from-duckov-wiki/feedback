@@ -1,0 +1,101 @@
+name: 📊 Data Update Request
+description: Request to update or correct game data
+title: "[DATA] "
+labels: ["data-update"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping us keep our data accurate! Please provide details about the data that needs updating.
+
+  - type: dropdown
+    id: data_type
+    attributes:
+      label: Data Type
+      description: What type of data needs to be updated?
+      options:
+        - Item Information
+        - Map Data
+        - Guide Content
+        - Quest Information
+        - NPC Data
+        - Location Details
+        - Stats/Numbers
+        - Images/Screenshots
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: item_name
+    attributes:
+      label: Item/Location/Subject Name
+      description: What is the name of the item, location, or subject that needs updating?
+      placeholder: e.g., "M4A1 Rifle", "Customs Map", "Beginner's Guide"
+    validations:
+      required: true
+
+  - type: input
+    id: page_url
+    attributes:
+      label: Page URL
+      description: Link to the page where the data appears
+      placeholder: https://escapefromduckov.net/...
+
+  - type: textarea
+    id: current_data
+    attributes:
+      label: Current Data
+      description: What is the current (incorrect or outdated) data?
+      placeholder: Currently it shows...
+    validations:
+      required: true
+
+  - type: textarea
+    id: correct_data
+    attributes:
+      label: Correct Data
+      description: What should the data be changed to?
+      placeholder: It should be...
+    validations:
+      required: true
+
+  - type: textarea
+    id: source
+    attributes:
+      label: Source/Reference
+      description: Where did you find the correct information? (Official wiki, patch notes, in-game verification, etc.)
+      placeholder: |
+        - Official patch notes: [link]
+        - Verified in-game on [date]
+        - Community wiki: [link]
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or Evidence
+      description: If applicable, add screenshots or other evidence
+      placeholder: Paste or drag images here
+
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: Urgency
+      description: How urgent is this data update?
+      options:
+        - Critical - Misleading information that could harm users
+        - High - Significantly outdated or incorrect
+        - Medium - Minor corrections needed
+        - Low - Nice to have / Small improvements
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Add any other information about the data update
+      placeholder: Any additional information that might help
+

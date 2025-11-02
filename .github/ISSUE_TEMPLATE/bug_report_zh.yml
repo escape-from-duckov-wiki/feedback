@@ -1,0 +1,96 @@
+name: 🐛 Bug 报告 (中文)
+description: 报告网站的 Bug 或问题
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢您报告 Bug！请填写以下表单，帮助我们理解并修复问题。
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug 描述
+      description: 清晰简洁地描述这个 Bug 是什么
+      placeholder: 告诉我们发生了什么
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 重现步骤
+      description: 重现该问题的步骤
+      placeholder: |
+        1. 访问 '...'
+        2. 点击 '...'
+        3. 向下滚动到 '...'
+        4. 看到错误
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期行为
+      description: 您期望发生什么？
+      placeholder: 描述您期望的结果
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际行为
+      description: 实际发生了什么？
+      placeholder: 描述实际发生的情况
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 截图
+      description: 如果适用，请添加截图来帮助解释问题
+      placeholder: 在此粘贴或拖拽图片
+
+  - type: input
+    id: url
+    attributes:
+      label: 页面 URL
+      description: 您在哪个页面遇到了这个问题？
+      placeholder: https://escapefromduckov.net/...
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: 浏览器
+      description: 您使用的是哪个浏览器？
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - Opera
+        - 其他
+    validations:
+      required: true
+
+  - type: dropdown
+    id: device
+    attributes:
+      label: 设备类型
+      description: 您使用的是什么类型的设备？
+      options:
+        - 桌面电脑
+        - 手机
+        - 平板电脑
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 补充信息
+      description: 在此添加关于该问题的任何其他信息
+      placeholder: 任何可能有帮助的额外信息
+

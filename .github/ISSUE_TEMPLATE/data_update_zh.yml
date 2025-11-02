@@ -1,0 +1,101 @@
+name: 📊 数据更新请求 (中文)
+description: 请求更新或修正游戏数据
+title: "[DATA] "
+labels: ["data-update"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢您帮助我们保持数据准确！请提供需要更新的数据详情。
+
+  - type: dropdown
+    id: data_type
+    attributes:
+      label: 数据类型
+      description: 需要更新什么类型的数据？
+      options:
+        - 物品信息
+        - 地图数据
+        - 指南内容
+        - 任务信息
+        - NPC 数据
+        - 位置详情
+        - 数值/统计
+        - 图片/截图
+        - 其他
+    validations:
+      required: true
+
+  - type: input
+    id: item_name
+    attributes:
+      label: 物品/位置/主题名称
+      description: 需要更新的物品、位置或主题的名称是什么？
+      placeholder: 例如："M4A1 步枪"、"海关地图"、"新手指南"
+    validations:
+      required: true
+
+  - type: input
+    id: page_url
+    attributes:
+      label: 页面 URL
+      description: 数据出现的页面链接
+      placeholder: https://escapefromduckov.net/...
+
+  - type: textarea
+    id: current_data
+    attributes:
+      label: 当前数据
+      description: 当前的（错误或过时的）数据是什么？
+      placeholder: 目前显示的是...
+    validations:
+      required: true
+
+  - type: textarea
+    id: correct_data
+    attributes:
+      label: 正确数据
+      description: 数据应该改为什么？
+      placeholder: 应该是...
+    validations:
+      required: true
+
+  - type: textarea
+    id: source
+    attributes:
+      label: 来源/参考
+      description: 您在哪里找到的正确信息？（官方 Wiki、更新日志、游戏内验证等）
+      placeholder: |
+        - 官方更新日志：[链接]
+        - 游戏内验证于 [日期]
+        - 社区 Wiki：[链接]
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 截图或证据
+      description: 如果适用，请添加截图或其他证据
+      placeholder: 在此粘贴或拖拽图片
+
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: 紧急程度
+      description: 此数据更新有多紧急？
+      options:
+        - 关键 - 误导性信息可能对用户有害
+        - 高 - 显著过时或不正确
+        - 中 - 需要小幅修正
+        - 低 - 可选改进
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 补充信息
+      description: 添加关于数据更新的任何其他信息
+      placeholder: 任何可能有帮助的额外信息
+

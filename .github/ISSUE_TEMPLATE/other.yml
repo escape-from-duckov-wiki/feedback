@@ -1,0 +1,60 @@
+name: 💬 Other Feedback
+description: General feedback, questions, or suggestions
+title: "[OTHER] "
+labels: ["other"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your feedback! Please share your thoughts, questions, or suggestions below.
+
+  - type: dropdown
+    id: feedback_type
+    attributes:
+      label: Feedback Type
+      description: What type of feedback are you providing?
+      options:
+        - General Question
+        - Suggestion
+        - Compliment
+        - Content Request
+        - Translation Issue
+        - Collaboration Proposal
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: message
+    attributes:
+      label: Your Message
+      description: Please share your feedback, question, or suggestion
+      placeholder: I wanted to share...
+    validations:
+      required: true
+
+  - type: input
+    id: related_url
+    attributes:
+      label: Related Page URL (if applicable)
+      description: If your feedback relates to a specific page, please provide the URL
+      placeholder: https://escapefromduckov.net/...
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Preferred Language
+      description: Which language version of the site are you primarily using?
+      options:
+        - English
+        - 中文 (Chinese)
+        - 日本語 (Japanese)
+        - Русский (Russian)
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Any other information you'd like to share
+      placeholder: Any additional information...
+

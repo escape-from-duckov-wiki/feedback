@@ -1,0 +1,60 @@
+name: 💬 其他反馈 (中文)
+description: 一般反馈、问题或建议
+title: "[OTHER] "
+labels: ["other"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢您的反馈！请在下方分享您的想法、问题或建议。
+
+  - type: dropdown
+    id: feedback_type
+    attributes:
+      label: 反馈类型
+      description: 您要提供什么类型的反馈？
+      options:
+        - 一般问题
+        - 建议
+        - 表扬
+        - 内容请求
+        - 翻译问题
+        - 合作提议
+        - 其他
+    validations:
+      required: true
+
+  - type: textarea
+    id: message
+    attributes:
+      label: 您的留言
+      description: 请分享您的反馈、问题或建议
+      placeholder: 我想分享...
+    validations:
+      required: true
+
+  - type: input
+    id: related_url
+    attributes:
+      label: 相关页面 URL（如适用）
+      description: 如果您的反馈与特定页面相关，请提供 URL
+      placeholder: https://escapefromduckov.net/...
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: 首选语言
+      description: 您主要使用网站的哪个语言版本？
+      options:
+        - English (英语)
+        - 中文
+        - 日本語 (日语)
+        - Русский (俄语)
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 补充信息
+      description: 您想分享的任何其他信息
+      placeholder: 任何额外的信息...
+
