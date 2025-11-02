@@ -2,6 +2,7 @@
   <img src="logo.png" alt="escapefromduckov-wiki">
 </p>
 <p align="center">
+  <span>English</span> |
   <a href="README.zh.md">中文</a> |
   <a href="README.ja.md">日本語</a> |
   <a href="README.ru.md">Русский</a>
