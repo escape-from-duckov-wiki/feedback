@@ -1,6 +1,15 @@
-# 🎮 Escape From Duckov - 反馈收集
+<p align="center">
+  <img src="logo.png" alt="escapefromduckov-wiki">
+</p>
+<p align="center">
+  <a href="README.md">English</a> |
+  <a href="README.ja.md">日本語</a> |
+  <a href="README.ru.md">Русский</a>
+</p>
 
-欢迎来到 [Escape From Duckov](https://escapefromduckov.net) 官方反馈仓库！
+# 🎮 Escape From Duckov Wiki - 反馈收集
+
+欢迎来到社区开发的 [Escape From Duckov Wiki](https://escapefromduckov.net) 反馈仓库！
 
 本仓库专门用于收集我们游戏资讯网站的用户反馈、Bug 报告、功能请求和数据更新请求。
 
@@ -23,14 +32,6 @@
 ### 🌐 英文模板
 如果您更习惯使用英文，也可以使用 [英文模板](../../issues/new/choose) 提交反馈。
 
-## 🌐 支持的语言
-
-您可以使用以下任何语言提交反馈：
-- 🇺🇸 English（英语）
-- 🇨🇳 中文
-- 🇯🇵 日本語（日语）
-- 🇷🇺 Русский（俄语）
-
 ## 📋 提交前须知
 
 在创建新 Issue 之前，请：
@@ -46,9 +47,6 @@
 - `feature` - 新功能或改进请求
 - `data-update` - 游戏数据更新或修正请求
 - `other` - 一般反馈或问题
-- `priority-high` - 需要立即处理的紧急问题
-- `priority-medium` - 重要问题
-- `priority-low` - 可选功能
 - `in-progress` - 正在处理中
 - `resolved` - 问题已解决
 - `wontfix` - 不会处理的问题
@@ -61,12 +59,6 @@
 - **物品数据库**: [escapefromduckov.net/items](https://escapefromduckov.net/items)
 - **地图**: [escapefromduckov.net/maps](https://escapefromduckov.net/maps)
 
-## 📖 其他语言版本
-
-- [English](README.md)
-- [日本語](README.ja.md)
-- [Русский](README.ru.md)
-
 ## 🙏 感谢
 
 感谢您花时间提供反馈！您的贡献帮助我们为整个社区改进 Escape From Duckov。
@@ -74,4 +66,3 @@
 ## 📜 许可证
 
 本仓库仅用于反馈收集。更多信息请参阅 [LICENSE](LICENSE) 文件。
-

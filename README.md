@@ -1,12 +1,15 @@
-<p center>
-  <a href="README.zh.md">中文</a>
-  <a href="README.ja.md">日本語</a>
+<p align="center">
+  <img src="logo.png" alt="escapefromduckov-wiki">
+</p>
+<p align="center">
+  <a href="README.zh.md">中文</a> |
+  <a href="README.ja.md">日本語</a> |
   <a href="README.ru.md">Русский</a>
 </p>
 
-# 🎮 Escape From Duckov - Feedback
+# 🎮 Escape From Duckov Wiki - Feedback
 
-Welcome to the official feedback repository for [Escape From Duckov](https://escapefromduckov.net)!
+Welcome to the feedback repository for the community project [Escape From Duckov Wiki](https://escapefromduckov.net)!
 
 This repository is dedicated to collecting user feedback, bug reports, feature requests, and data update requests for our gaming information website.
 
@@ -41,9 +44,6 @@ We use the following labels to organize issues:
 - `feature` - New feature or enhancement request
 - `data-update` - Request to update or correct game data
 - `other` - General feedback or questions
-- `priority-high` - Urgent issues that need immediate attention
-- `priority-medium` - Important issues
-- `priority-low` - Nice to have
 - `in-progress` - Currently being worked on
 - `resolved` - Issue has been resolved
 - `wontfix` - Issue that won't be addressed

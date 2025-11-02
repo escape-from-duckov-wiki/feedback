@@ -1,6 +1,15 @@
-# 🎮 Escape From Duckov - フィードバック
+<p align="center">
+  <img src="logo.png" alt="escapefromduckov-wiki">
+</p>
+<p align="center">
+  <a href="README.md">English</a> |
+  <a href="README.zh.md">中文</a> |
+  <a href="README.ru.md">Русский</a>
+</p>
 
-[Escape From Duckov](https://escapefromduckov.net) 公式フィードバックリポジトリへようこそ！
+# 🎮 Escape From Duckov Wiki - フィードバック
+
+コミュニティプロジェクト [Escape From Duckov Wiki](https://escapefromduckov.net) のフィードバックリポジトリへようこそ！
 
 このリポジトリは、ゲーム情報サイトのユーザーフィードバック、バグレポート、機能リクエスト、データ更新リクエストの収集に特化しています。
 
@@ -20,14 +29,6 @@
 ### 💬 その他のフィードバック
 他に共有したいことがありますか？[一般的なフィードバック Issue を開く](../../issues/new?template=other.yml)
 
-## 🌐 対応言語
-
-以下のいずれかの言語でフィードバックを送信できます：
-- 🇺🇸 English（英語）
-- 🇨🇳 中文（中国語）
-- 🇯🇵 日本語
-- 🇷🇺 Русский（ロシア語）
-
 ## 📋 送信前のチェック
 
 新しい Issue を作成する前に、以下をご確認ください：
@@ -43,9 +44,6 @@ Issues を整理するために以下のラベルを使用しています：
 - `feature` - 新機能または改善リクエスト
 - `data-update` - ゲームデータの更新または修正リクエスト
 - `other` - 一般的なフィードバックまたは質問
-- `priority-high` - 早急な対応が必要な問題
-- `priority-medium` - 重要な問題
-- `priority-low` - あると便利なもの
 - `in-progress` - 現在作業中
 - `resolved` - 問題が解決済み
 - `wontfix` - 対応しない問題
@@ -58,12 +56,6 @@ Issues を整理するために以下のラベルを使用しています：
 - **アイテムデータベース**: [escapefromduckov.net/items](https://escapefromduckov.net/items)
 - **マップ**: [escapefromduckov.net/maps](https://escapefromduckov.net/maps)
 
-## 📖 他の言語版
-
-- [English](README.md)
-- [中文](README.zh.md)
-- [Русский](README.ru.md)
-
 ## 🙏 ありがとうございます
 
 フィードバックのためにお時間をいただき、ありがとうございます！皆様の貢献は、コミュニティ全体のために Escape From Duckov を改善するのに役立ちます。
@@ -71,4 +63,3 @@ Issues を整理するために以下のラベルを使用しています：
 ## 📜 ライセンス
 
 このリポジトリはフィードバック収集専用です。詳細については [LICENSE](LICENSE) ファイルをご参照ください。
-

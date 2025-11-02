@@ -1,6 +1,6 @@
-# Contributing to Escape From Duckov Feedback
+# Contributing to Escape From Duckov Wiki Feedback
 
-Thank you for your interest in contributing to Escape From Duckov! This document provides guidelines for submitting feedback and contributing to our community.
+Thank you for your interest in contributing to Escape From Duckov Wiki! This document provides guidelines for submitting feedback and contributing to our community.
 
 ## 🎯 Purpose of This Repository
 
@@ -50,8 +50,7 @@ A good feature request should include:
 1. **Problem statement** - What problem does this solve?
 2. **Proposed solution** - How would you like it to work?
 3. **Use cases** - When would you use this feature?
-4. **Priority** - How important is this to you?
-5. **Examples** - Screenshots or examples from other sites (if applicable)
+4. **Examples** - Screenshots or examples from other sites (if applicable)
 
 ### For Data Updates
 
@@ -74,7 +73,6 @@ A good data update request should include:
 After you submit an issue, maintainers will add labels:
 
 - `bug` / `feature` / `data-update` / `other` - Issue type
-- `priority-high/medium/low` - How urgent it is
 - `in-progress` - We're working on it
 - `resolved` - Issue has been fixed
 - `duplicate` - Already reported
@@ -84,18 +82,8 @@ After you submit an issue, maintainers will add labels:
 
 - **Acknowledgment**: We try to respond to all issues within 48-72 hours
 - **Investigation**: Bug reports and data updates are investigated and verified
-- **Resolution**: Fixes are implemented and deployed based on priority
+- **Resolution**: Fixes are implemented and deployed
 - **Updates**: You'll receive notifications when your issue is updated
-
-## 🌐 Language Support
-
-You can submit feedback in:
-- English
-- 中文 (Chinese)
-- 日本語 (Japanese)
-- Русский (Russian)
-
-We'll do our best to respond in your preferred language.
 
 ## 📧 Contact
 
@@ -108,4 +96,3 @@ Your feedback helps us build a better resource for the entire community. We appr
 ---
 
 *This contributing guide was last updated: November 2025*
-
